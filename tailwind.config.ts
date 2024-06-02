@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         mainGray: "#858d97",
+        secondaryBlack: "#0d1116",
       },
     },
   },

@@ -1,11 +1,7 @@
 import Image from "next/image";
 import { Container } from "../UI/container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faChevronDown,
-  faPlus,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
   ChevronDown,
@@ -21,7 +17,7 @@ export const Header = () => (
   <section className="flex w-full p-4 justify-between">
     <section className="flex gap-4 items-center">
       <Container>
-        <IconContainer classNames="grid justify-items-center items-center w-6 p-0.5 text-mainGray ">
+        <IconContainer classNames="grid justify-items-center items-center w-6 p-0.5 text-mainGray">
           <FontAwesomeIcon icon={faBars} />
         </IconContainer>
       </Container>

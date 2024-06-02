@@ -7,12 +7,11 @@ type IconProps = {
   alt: string;
   width?: number | `${number}` | undefined;
   height?: number | `${number}` | undefined;
-  
 };
 export const Icon = (props: IconProps) => {
   return (
     <Container>
-      <figure className="flex px-1 w-8 h-8 items-center">
+      <figure className="flex px-1 w-8 h-8 items-center cursor-pointer">
         <Image className="" {...props} />
       </figure>
     </Container>
