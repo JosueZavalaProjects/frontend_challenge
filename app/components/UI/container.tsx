@@ -1,6 +1,7 @@
-type ContainerProps = {
-  children: React.ReactNode;
-};
 export const Container = ({ children }: ContainerProps) => {
-  return <div className="border border-gray-400 p-1">{children}</div>;
+  return (
+    <div className="flex w-auto border-2 border-[#30363d] p-1 rounded-md">
+      {children}
+    </div>
+  );
 };
